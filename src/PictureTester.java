@@ -11,9 +11,9 @@ public class PictureTester
   /** Method to test zeroBlue */
   public static void testZeroBlue()
   {
-    Picture beach = new Picture("redMotorcycle.jpg");
+    Picture beach = new Picture("seagull.jpg");
     beach.explore();
-    beach.mirrorDiagonal();
+    beach.mirrorGull();
     beach.explore();
   }
   
