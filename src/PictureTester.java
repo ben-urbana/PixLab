@@ -13,7 +13,7 @@ public class PictureTester
   {
     Picture beach = new Picture("beach.jpg");
     beach.explore();
-    beach.edgeDetection(2);
+    beach.betterEdgeDetection(20);
     beach.explore();
   }
   
